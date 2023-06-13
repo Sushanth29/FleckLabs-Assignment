@@ -1,5 +1,5 @@
-# FleckLabs-Assignment
-Assignment Submission for SDE role at FleckLabs
+# FlecksLabs-Assignment
+Assignment Submission for SDE role at FlecksLabs
 
 I have choosen website development for the assignment. Below are the details
 
