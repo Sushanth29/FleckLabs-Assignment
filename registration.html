@@ -9,8 +9,14 @@
     <h1>Registration</h1>
     <form id="registrationForm">
       <input type="text" id="username" placeholder="Username" required>
+      <small class="input-guideline">Username must be at least 6 characters long.</small><br>
+      
       <input type="email" id="email" placeholder="Email" required>
+      <small class="input-guideline">Please enter a valid email address.</small><br>
+      
       <input type="password" id="password" placeholder="Password" required>
+      <small class="input-guideline">Password must be at least 8 characters long.</small><br>
+      
       <button type="submit">Register</button>
     </form>
     <p id="errorMessage" class="error-message"></p>
