@@ -38,8 +38,10 @@ getWeatherButton.addEventListener('click', () => {
             const humidity = data.main.humidity;
   
             const currentDate = new Date();
-            const date = currentDate.toLocaleDateString();
-            const time = currentDate.toLocaleTimeString();
+            const dateOptions = { year: 'numeric', month: 'long', day: 'numeric' };
+            const timeOptions = { hour: 'numeric', minute: 'numeric', second: 'numeric' };
+            const date = currentDate.toLocaleDateString('en-US', dateOptions);
+            const time = currentDate.toLocaleTimeString('en-US', timeOptions);
   
             const weatherInfoElement = document.getElementById('weatherInfo');
             weatherInfoElement.innerHTML = `
