@@ -82,7 +82,7 @@ getWeatherButton.addEventListener('click', () => {
                   // Construct the new weather history object to add to the session data
                   const newWeatherEntry = {
                     temperature: temperature,
-                    timestamp: date + " " + time
+                    timestamp: `${date} ${time}`
                   };
   
                   // Add the new weather entry to the weather history
