@@ -60,4 +60,7 @@ body {
     right: 0;
     margin: 30px;
   }
+.input-guideline {
+    opacity: 0.6; 
+  }
   
