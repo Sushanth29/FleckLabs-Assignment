@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Home</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <div class="container"> 
+    <h1>Weather App</h1>
+    <br>
+    <div id="weatherContainer">
+      <h2>Weather</h2>
+      <p id="weatherInfo"></p>
+      <button id="weatherButton">Detect My Location and Show Weather</button>
+      <p id="currentTemperature"></p>
+      <p id="currentWeather"></p>
+    </div>
+    <div id="temperatureHistoryContainer">
+      <h2>Temperature History</h2>
+      <ul id="weatherHistory"></ul>
+      <button id="temperatureHistoryButton">Show Temperature History</button>
+      <p id="noWeatherHistoryMessage" style="display: none;">No weather history found.</p>
+    </div>
+    <div id="developerContainer">
+      <h2>Developer</h2>
+      <p id="developerInfo"></p>
+      <button id="developerButton">Show Developer</button>
+    </div>
+    <br>
+    <button id="logoutButton">Logout</button>
+  </div>
+
+  <script src="home.js"></script>
+</body>
+</html>
