@@ -238,7 +238,7 @@ logoutButton.addEventListener('click', () => {
         // Clear user session data
         playfabSessionTicket = '';
         // Redirect to the login page
-        window.location.href = 'login.html';
+        window.location.href = 'index.html';
       })
       .catch(error => {
         console.log('Error:', error);
