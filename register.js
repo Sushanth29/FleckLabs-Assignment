@@ -33,7 +33,7 @@ registrationForm.addEventListener('submit', e => {
     } else {
       const successMessage = 'Registration successful! Please login with your credentials.';
       sessionStorage.setItem('registrationSuccessMessage', successMessage);
-      window.location.href = 'login.html'; 
+      window.location.href = 'index.html'; 
     }
   })
   .catch(error => {
