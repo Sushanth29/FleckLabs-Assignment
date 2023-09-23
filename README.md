@@ -3,7 +3,7 @@
 * This website also shows all your weather history
 
 index.html - This is the login page of our website. Here we can login if we are an existing user or else we can go to register page using register button
-||script.js - This is javascript backend code for our index.html page
+|| script.js - This is javascript backend code for our index.html page
 
 registration.html - This is the registration page where a new user can register themselves
 || register.js - This is javascript backend code for our registration.html page
