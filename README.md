@@ -1,3 +1,7 @@
+* This website allows user login and user registration. 
+* After logging into website, user can check weather and can detect their location
+* This website also shows all your weather history
+
 index.html - This is the login page of our website. Here we can login if we are an existing user or else we can go to register page using register button
 ||script.js - This is javascript backend code for our index.html page
 
